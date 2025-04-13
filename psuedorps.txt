@@ -1,0 +1,11 @@
+Scissors beats paper
+Paper beats rock
+Rock beats scissors
+
+Set player and computer score to 0. 
+
+Function getComputerChoice returns either rock, paper or scissors. A random number between 0-2 will be generated.  
+If the random number is 0, return paper. 
+If the random number is 1, return rock.
+If the random number is 2, return scissors. 
+
