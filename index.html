@@ -11,18 +11,33 @@
 
 <script>
     let computerScore = 0;
-    let playerScore = 0;
+    let humanScore = 0;
 
-    function getComputerChoice () {
-        let computerChoice = math.random(3);
+    function getComputerChoice() {
+        let computerChoice = Math.floor(Math.random() * 3);
         if(computerChoice === 0) {
             return "paper";
         }
         else if(computerChoice === 1) {
-            return "rock"
+            return "rock";
         }
-        else if 
-        
+        else if(computerChoice === 2) {
+            return "scissors";
+        }
+        else {
+            return "nothing";
+        }
     }
+
+    function getHumanChoice() {
+        let humanChoice = prompt("Choose rock, paper, or scissors.");
+        return humanChoice;
+    }
+
+    function playRound(cChoice = getComputerChoice(), pChoice = getHumanChoice()) {
+        return "rock"
+    }
+
+    
 </script>
 </html>

@@ -9,3 +9,9 @@ If the random number is 0, return paper.
 If the random number is 1, return rock.
 If the random number is 2, return scissors. 
 
+
+Function getPlayerChoice displays in the console a list of choice.  The choices are paper, rock, or scissors.  
+The funciton will then accept the user input and will check to see if paper, rock, or scissors is spelled correctly. 
+If not, spelled correctly, the game will exit and will display in the console that a valid choice was not made (not using loops). If the spelling is correct, return the choice. 
+
+
